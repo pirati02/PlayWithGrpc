@@ -1,0 +1,17 @@
+{
+  "name": "client_service_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "greeter_client.js",
+  "scripts": {
+    "run": "node greeter_client.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.5.5",
+    "bluebird": "^3.7.2",
+    "grpc": "^1.24.4",
+    "uuid": "^8.3.1"
+  }
+}
