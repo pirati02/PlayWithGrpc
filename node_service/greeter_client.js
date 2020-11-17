@@ -10,5 +10,5 @@ const client = new greetPackageDefinition.Greeter('dns:localhost:5007', grpc.cre
 return client.sayHello({
     name: 'from nodejs'
 }, function(err, result) {
-    console.log(result)
+    console.log(result.message)
 });  

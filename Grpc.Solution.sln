@@ -6,10 +6,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grpc.Client", "Grpc.Client\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grpc.ProtoContracts", "Grpc.ProtoContracts\Grpc.ProtoContracts.csproj", "{B7B37F41-C9C9-4F33-AB5C-1976DA41E9DB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "node_service", "node_service", "{A4685527-4FFC-45AF-B218-8F212F334E02}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NodeJs", "NodeJs", "{A4685527-4FFC-45AF-B218-8F212F334E02}"
 ProjectSection(SolutionItems) = preProject
 	node_service\greeter_client.js = node_service\greeter_client.js
 EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kotlin", "Kotlin", "{DA522C44-8DEB-4909-979C-D299B26CA333}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Android", "Android", "{CCDED234-3D50-4B03-82AA-CB80A42D3136}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
