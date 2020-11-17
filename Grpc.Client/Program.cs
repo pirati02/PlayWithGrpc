@@ -13,7 +13,7 @@ namespace Grpc.Client
             var channel = GrpcChannel.ForAddress("http://localhost:5007");
             var client = new Greeter.GreeterClient(channel);
 
-            var response = await client.SayHelloAsync(new HelloRequest { Name = "World" });
+            var response = await client.SayHelloAsync(new HelloRequest { Name = "from net core console app" });
 
             Console.WriteLine(response.Message);
         }
